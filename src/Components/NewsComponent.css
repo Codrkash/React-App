@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+.text-center {
+  font-size: 50px;
+  /* text-transform: uppercase; */
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  /* text-decoration: underline; */
+  margin-top: 15px;
+  letter-spacing: 4px;
+}
+.gif {
+  mix-blend-mode: multiply;
+  width: 20%;
+}
