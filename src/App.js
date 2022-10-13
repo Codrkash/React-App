@@ -15,21 +15,36 @@ export default class App extends Component {
               exact
               path="/"
               element={
-                <NewsComponent key="general" pageSize={3} category="general" />
+                <NewsComponent
+                  key="general"
+                  pageSize={3}
+                  country="in"
+                  category="general"
+                />
               }
             />
             <Route
               exact
               path="/health"
               element={
-                <NewsComponent key="health" pageSize={3} category="health" />
+                <NewsComponent
+                  key="health"
+                  pageSize={3}
+                  country="in"
+                  category="health"
+                />
               }
             />
             <Route
               exact
               path="/science"
               element={
-                <NewsComponent key="health" pageSize={3} category="science" />
+                <NewsComponent
+                  key="health"
+                  pageSize={3}
+                  country="in"
+                  category="science"
+                />
               }
             />
             <Route
@@ -39,6 +54,7 @@ export default class App extends Component {
                 <NewsComponent
                   key="business"
                   pageSize={3}
+                  country="in"
                   category="business"
                 />
               }
@@ -50,6 +66,7 @@ export default class App extends Component {
                 <NewsComponent
                   key="technology"
                   pageSize={3}
+                  country="in"
                   category="technology"
                 />
               }
@@ -58,7 +75,12 @@ export default class App extends Component {
               exact
               path="/sports"
               element={
-                <NewsComponent key="sports" pageSize={3} category="sports" />
+                <NewsComponent
+                  key="sports"
+                  pageSize={3}
+                  country="in"
+                  category="sports"
+                />
               }
             />
             <Route
@@ -68,6 +90,7 @@ export default class App extends Component {
                 <NewsComponent
                   key="entertainment"
                   pageSize={3}
+                  country="in"
                   category="entertainment"
                 />
               }
