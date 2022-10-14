@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NewsItem from "./NewsItem";
-import spinnner from "./spin.gif";
+import spinnner from "./loader3.gif";
+import "./NewsComponent.css";
 export class NewsComponent extends Component {
   // props = this.props;
   articles = [
@@ -216,11 +217,11 @@ export class NewsComponent extends Component {
   render() {
     return (
       <div className="container">
-        <h1 className="text-center">Top Head-lines</h1>
+        <h1 className="text-center">Top Headlines</h1>
         {/* <spinner /> */}
         {this.state.loading && (
           <div className="container text-center">
-            <img src={spinnner} alt="Loading" />
+            <img src={spinnner} alt="Loading" className="gif" />
           </div>
         )}
         <div className="container row">

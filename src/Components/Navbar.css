@@ -1,0 +1,28 @@
+nav {
+  background-color: #b4846c;
+  margin-bottom: 1px;
+  box-sizing: border-box;
+  /* text-align: center; */
+}
+.collapse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  transition-duration: 300ms;
+}
+.nav-link {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.nav-item:hover {
+  letter-spacing: 5px;
+  transform: scale(1.3);
+  padding-left: 30px;
+  padding-right: 30px;
+  /* padding-bottom: 1px; */
+}

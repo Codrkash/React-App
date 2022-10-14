@@ -1,3 +1,7 @@
+.main-app {
+  background-color: #e5b299;
+  height: 100vh;
+}
 .App {
   text-align: center;
 }

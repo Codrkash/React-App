@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./NewsItem.css";
 
 export class NewsItem extends Component {
   render() {
