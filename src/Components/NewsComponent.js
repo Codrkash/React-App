@@ -236,7 +236,7 @@ export class NewsComponent extends Component {
                   imageUrl={
                     element.urlToImage
                       ? element.urlToImage
-                      : "https://c.ndtvimg.com/2022-10/0ctfdk4g_salman-khan_625x300_09_October_22.jpg"
+                      : "https://samachar4media.gumlet.com/51538-ABP-News.jpg"
                   }
                   newsUrl={element.url}
                 />
